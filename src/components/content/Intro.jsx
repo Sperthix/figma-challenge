@@ -21,7 +21,7 @@ const Intro = () => {
           one help desk software.
         </p>
         <p className="checkmarks">
-          ✓ No setup fee  ✓ Customer service 24/7 <br />✓ No credit card required
+          ✓ No setup fee ✓ Customer service 24/7 <br />✓ No credit card required
           ✓ Cancel any time
         </p>
         <div>
@@ -39,13 +39,13 @@ const Intro = () => {
         <div className="logo">
           <span>Used by</span>
           <img src={airbus} alt="airbus logo" />
-          <img src={forbes} alt="airbus logo" />
-          <img src={nascar} alt="airbus logo" />
-          <img src={usc} alt="airbus logo" />
+          <img src={forbes} alt="forbes logo" />
+          <img src={nascar} alt="nascar logo" />
+          <img src={usc} alt="usc logo" />
         </div>
       </div>
       <div className="right">
-        <img src={bg}></img>
+        <img src={bg} alt="women typing on a phone"></img>
       </div>
     </section>
   );
