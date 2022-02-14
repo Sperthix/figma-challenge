@@ -1,0 +1,39 @@
+@import "../Variables/Variables.scss";
+
+.pageLayout {
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "intro intro"
+    "pricing pricing"
+    "benefits benefits";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+
+  .IntroSection {
+    height: 1140px;
+    grid-area: intro;
+    background: white;
+    width: 100%;
+
+    display: flex;
+  }
+  .PricingSection {
+    grid-area: pricing;
+    background: $PricingBackground;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+  }
+  .BenefitsSection {
+    grid-area: benefits;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+  }
+}

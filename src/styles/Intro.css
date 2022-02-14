@@ -1,0 +1,51 @@
+.intro {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.intro .right img {
+  height: 814px;
+  width: 771px;
+  border-radius: 70px 0 0 70px;
+}
+
+.intro .left {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.intro .left h1 {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.intro .left h1 span {
+  color: #fa9531;
+}
+
+.intro .left p {
+  font-family: "Poppins";
+  font-weight: normal;
+  font-size: 26px;
+}
+/*# sourceMappingURL=Intro.css.map */
