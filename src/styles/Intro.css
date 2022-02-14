@@ -34,6 +34,7 @@
 }
 
 .intro .left h1 {
+  margin: 0;
   font-family: "Poppins";
   font-weight: bold;
   font-size: 55px;
@@ -47,5 +48,98 @@
   font-family: "Poppins";
   font-weight: normal;
   font-size: 26px;
+}
+
+.intro .left p.checkmarks {
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 14px;
+  color: #8c9097;
+}
+
+.intro .left button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffbd39), to(#fa9531));
+  background: linear-gradient(#ffbd39, #fa9531);
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Poppins";
+  color: white;
+  display: inline;
+  padding: 15px;
+  text-shadow: 0 2px 0, 0, 0, 0.2;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+  max-width: 200px;
+}
+
+.intro .left p.play {
+  margin: 0;
+  display: inline;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: bolder;
+  position: relative;
+  top: 2px;
+}
+
+.intro .left .circle {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  background-color: rgba(255, 189, 57, 0.2);
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 25px;
+}
+
+.intro .left .circle span {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  background-color: rgba(252, 167, 53, 0.4);
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transform: translate(5px, -5px);
+          transform: translate(5px, -5px);
+}
+
+.intro .left .circle span span {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffbd39), to(#fa9531));
+  background: linear-gradient(#ffbd39, #fa9531);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.intro .left .circle span span img {
+  font-size: 14px;
+  position: relative;
+  top: -11px;
+  left: 11px;
+}
+
+.intro .left .logo span {
+  margin-top: 40px;
+  font-family: "Poppins";
+  color: #8c9097;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+}
+
+.intro .left .logo img {
+  position: relative;
+  left: -20px;
+  width: 9vw;
+  margin-left: 40px;
 }
 /*# sourceMappingURL=Intro.css.map */

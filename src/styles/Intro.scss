@@ -20,6 +20,7 @@
     align-items: left;
 
     h1 {
+      margin: 0;
       font-family: $titleFont;
       font-weight: bold;
       font-size: 55px;
@@ -32,6 +33,89 @@
       font-family: $titleFont;
       font-weight: normal;
       font-size: 26px;
+    }
+    p.checkmarks {
+      margin-bottom: 30px;
+      font-family: $boddyFont;
+      font-weight: normal;
+      font-size: 14px;
+      color: #8c9097;
+    }
+    button {
+      background: $LA-gradient;
+      padding: 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: $titleFont;
+      color: white;
+      display: inline;
+      padding: 15px;
+      text-shadow: 0 2px 0, 0, 0, 0.2;
+      font-size: 14px;
+      font-weight: bold;
+      text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+      max-width: 200px;
+    }
+    p.play {
+      margin: 0;
+      display: inline;
+      font-family: $titleFont;
+      font-size: 14px;
+      font-weight: bolder;
+      position: relative;
+      top: 2px;
+    }
+    .circle {
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      font-size: 50px;
+      background-color: rgba(255, 189, 57, 0.2);
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      top: 25px;
+      span {
+        width: 40px;
+        height: 40px;
+        font-size: 40px;
+        background-color: rgba(252, 167, 53, 0.4);
+        border-radius: 50%;
+        display: inline-block;
+        transform: translate(5px, -5px);
+        span {
+          width: 30px;
+          height: 30px;
+          font-size: 30px;
+          background: $LA-gradient;
+          border-radius: 50%;
+          display: inline-block;
+          img {
+            font-size: 14px;
+            position: relative;
+            top: -11px;
+            left: 11px;
+          }
+        }
+      }
+    }
+    .logo {
+      span {
+        margin-top: 40px;
+        font-family: $titleFont;
+        color: #8c9097;
+        font-weight: bold;
+        font-size: 14px;
+        display: block;
+      }
+      img {
+        position: relative;
+        left: -20px;
+        width: 9vw;
+        margin-left: 40px;
+      }
     }
   }
 }
