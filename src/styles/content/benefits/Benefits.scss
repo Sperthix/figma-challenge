@@ -49,14 +49,14 @@
       background-image: url(../../../assets/benefits/GraphBg.svg);
       background-repeat: no-repeat;
       background-size: contain;
-
-      img {
-        text-shadow: 2px 2px black;
-      }
     }
   }
 
   .benefitsRight {
     padding: $padding;
+  }
+
+  .BenefitCardWrapper {
+    margin-bottom: 2em;
   }
 }

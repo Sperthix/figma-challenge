@@ -1,0 +1,39 @@
+@import "../../../Variables/Variables.scss";
+.BenefitsCard {
+  background-color: white;
+  border-radius: $radius;
+  display: flex;
+  flex-direction: row;
+  max-height: 160px;
+  * {
+    margin: 0;
+  }
+  .BenefitsCardLeft {
+    flex: 5;
+    background-image: url(../../../assets/benefits/cardBg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5%;
+
+    span {
+      color: $LA-darkOrange;
+      font-family: $bodyFont;
+      font-weight: bold;
+      font-size: 50px;
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      white-space:nowrap;
+    }
+  }
+  .BenefitsCardRight {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2em;
+  }
+}

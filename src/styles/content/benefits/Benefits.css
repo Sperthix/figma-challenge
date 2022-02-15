@@ -67,11 +67,11 @@
   background-size: contain;
 }
 
-.BenefitsContainer .benefitsLeft .graphContainer img {
-  text-shadow: 2px 2px black;
-}
-
 .BenefitsContainer .benefitsRight {
   padding: 5em;
+}
+
+.BenefitsContainer .BenefitCardWrapper {
+  margin-bottom: 2em;
 }
 /*# sourceMappingURL=Benefits.css.map */

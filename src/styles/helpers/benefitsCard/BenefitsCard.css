@@ -1,0 +1,61 @@
+.BenefitsCard {
+  background-color: white;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-height: 160px;
+}
+
+.BenefitsCard * {
+  margin: 0;
+}
+
+.BenefitsCard .BenefitsCardLeft {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  background-image: url(../../../assets/benefits/cardBg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 5%;
+}
+
+.BenefitsCard .BenefitsCardLeft span {
+  color: #fa9531;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.BenefitsCard .BenefitsCardRight {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+/*# sourceMappingURL=BenefitsCard.css.map */
