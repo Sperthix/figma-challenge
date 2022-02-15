@@ -1,4 +1,4 @@
-import "../../styles/Intro.css";
+import "../../styles/content/intro/Intro.css";
 
 import bg from "../../assets/intro/bg-women.jpg";
 import play from "../../assets/intro/play-icon.svg";

@@ -1,4 +1,4 @@
-import "../../styles/Layout.css";
+import "../../styles/content/layout/Layout.css";
 import Intro from "../content/Intro";
 import Pricing from "../content/Pricing";
 import Benefits from "../content/Benefits";

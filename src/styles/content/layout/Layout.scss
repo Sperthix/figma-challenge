@@ -1,5 +1,3 @@
-@import "../Variables/Variables.scss";
-
 .pageLayout {
   margin: 0;
   width: 100%;
@@ -16,22 +14,14 @@
   .IntroSection {
     grid-area: intro;
     height: 1140px;
-    width: 100%;
     display: flex;
   }
   .PricingSection {
     grid-area: pricing;
-    // background: $PricingBackground;
-    height: 100%;
-    width: 100%;
-
     display: flex;
   }
   .BenefitsSection {
     grid-area: benefits;
-    height: 100%;
-    width: 100%;
-
     display: flex;
   }
 }

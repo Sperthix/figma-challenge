@@ -1,4 +1,4 @@
-import "../../styles/PricingCard.css";
+import "../../styles/helpers/pricingCard/PricingCard.css";
 
 const PricingCard = (props) => {
   return (

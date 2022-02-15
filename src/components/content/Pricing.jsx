@@ -1,5 +1,5 @@
-import "../../styles/Pricing.css";
-import PricingCard from "../helpers/Card";
+import "../../styles/content/pricing/Pricing.css";
+import PricingCard from "../helpers/PricingCard";
 
 import envelope from "../../assets/pricing/pricing-icon-ticket.svg";
 import envelopeChat from "../../assets/pricing/pricing-icon-ticketchat.svg";
@@ -11,7 +11,7 @@ const Pricing = () => {
   };
 
   return (
-    <section className="container">
+    <section className="pricingContainer">
       <div className="left">
         <span>Best price</span>
         <h1>A fair knowledge base software</h1>
