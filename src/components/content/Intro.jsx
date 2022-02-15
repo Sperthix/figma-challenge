@@ -6,8 +6,13 @@ import airbus from "../../assets/intro/logos/Airbus.svg";
 import forbes from "../../assets/intro/logos/Forbes.svg";
 import nascar from "../../assets/intro/logos/Nascar.svg";
 import usc from "../../assets/intro/logos/USC.svg";
+import Button from "../helpers/Button";
 
 const Intro = () => {
+  const buttonStyle = {
+    width: "30%",
+  };
+
   return (
     <section className="intro">
       <div className="left">
@@ -25,7 +30,7 @@ const Intro = () => {
           ✓ Cancel any time
         </p>
         <div>
-          <button>Get Started | 14 days free</button>
+          <Button text="Get Started | 14 days free" style={buttonStyle} />
           <span className="circle">
             <span>
               <span>

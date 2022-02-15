@@ -1,17 +1,15 @@
-import { Fragment } from "react";
+import "../../styles/PricingCard.css";
 
-const Card = (props) => {
+const PricingCard = (props) => {
   return (
-    <Fragment>
-      <div>
-        <img src={props.img} alt="icon"></img>
-        <h2>{props.title}</h2>
-        <p>{props.text}</p>
-        <span>{props.price}</span>
-        <button>Try it</button>
-      </div>
-    </Fragment>
+    <div className="card">
+      <img src={props.img} alt="icon"></img>
+      <h2>{props.title}</h2>
+      <p>{props.text}</p>
+      <span>{props.price}</span>
+      <button>Try it</button>
+    </div>
   );
 };
 
-export default Card;
+export default PricingCard;

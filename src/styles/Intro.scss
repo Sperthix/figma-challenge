@@ -4,16 +4,18 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
+  // gap: 4em;
   .right {
     img {
-      height: 814px;
-      width: 771px;
+      z-index: -1;
+      min-height: 814px;
+      min-width: 771px;
       border-radius: 70px 0 0 70px;
     }
   }
   .left {
-    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,27 +38,26 @@
     }
     p.checkmarks {
       margin-bottom: 30px;
-      font-family: $boddyFont;
+      font-family: $bodyFont;
       font-weight: normal;
       font-size: 14px;
       color: #8c9097;
     }
-    button {
-      background: $LA-gradient;
-      padding: 15px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-family: $titleFont;
-      color: white;
-      display: inline;
-      padding: 15px;
-      text-shadow: 0 2px 0, 0, 0, 0.2;
-      font-size: 14px;
-      font-weight: bold;
-      text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-      max-width: 200px;
-    }
+    // button {
+    //   background: $LA-gradient;
+    //   padding: 4em;
+    //   border: none;
+    //   border-radius: 6px;
+    //   cursor: pointer;
+    //   font-family: $titleFont;
+    //   color: white;
+    //   display: inline;
+    //   padding: 1em;
+    //   text-shadow: 0 2px 0, 0, 0, 0.2;
+    //   font-size: 14px;
+    //   font-weight: bold;
+    //   text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    // }
     p.play {
       margin: 0;
       display: inline;

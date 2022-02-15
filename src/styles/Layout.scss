@@ -14,16 +14,14 @@
   justify-content: center;
 
   .IntroSection {
-    height: 1140px;
     grid-area: intro;
-    background: white;
+    height: 1140px;
     width: 100%;
-
     display: flex;
   }
   .PricingSection {
     grid-area: pricing;
-    background: $PricingBackground;
+    // background: $PricingBackground;
     height: 100%;
     width: 100%;
 
