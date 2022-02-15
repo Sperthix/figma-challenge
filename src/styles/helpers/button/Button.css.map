@@ -3,7 +3,7 @@
     "mappings": "AAEA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,iCAAiC;EAE7C,OAAO,EAAE,OAAO;EAChB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,OAAO;EACf,WAAW,ECCD,SAAS;EDAnB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;CACb",
     "sources": [
         "Button.scss",
-        "../Variables/Variables.scss"
+        "../../../Variables/Variables.scss"
     ],
     "names": [],
     "file": "Button.css"
