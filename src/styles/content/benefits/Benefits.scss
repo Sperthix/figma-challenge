@@ -4,5 +4,14 @@
   max-width: 1380px;
   margin: 0 auto;
   background-image: url(../../../assets/benefits/bg.svg);
+  background-color: rgba(254, 239, 224, 0.7);
   border-radius: 16px;
+
+  .benefitsLeft {
+    display: flex;
+  }
+
+  .benefitsRight {
+    display: flex;
+  }
 }

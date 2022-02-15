@@ -12,7 +12,7 @@
           align-items: center;
 }
 
-.pricingContainer .left {
+.pricingContainer .pricingLeft {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
@@ -29,32 +29,32 @@
   gap: 2em;
 }
 
-.pricingContainer .left * {
+.pricingContainer .pricingLeft * {
   margin: 0;
 }
 
-.pricingContainer .left span {
+.pricingContainer .pricingLeft span {
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: bold;
   color: #fa9531;
 }
 
-.pricingContainer .left h1 {
+.pricingContainer .pricingLeft h1 {
   font-family: "Poppins";
   font-size: 40px;
   font-weight: bold;
   max-width: 70%;
 }
 
-.pricingContainer .left p {
+.pricingContainer .pricingLeft p {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: normal;
   max-width: 70%;
 }
 
-.pricingContainer .right {
+.pricingContainer .pricingRight {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;

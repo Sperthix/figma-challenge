@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: flex-end;
   // gap: 4em;
-  .right {
+  .introRight {
     img {
       z-index: -1;
       min-height: 814px;
@@ -14,7 +14,7 @@
       border-radius: 70px 0 0 70px;
     }
   }
-  .left {
+  .introLeft {
     width: 50%;
     display: flex;
     flex-direction: column;

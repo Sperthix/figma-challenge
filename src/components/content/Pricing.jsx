@@ -12,7 +12,7 @@ const Pricing = () => {
 
   return (
     <section className="pricingContainer">
-      <div className="left">
+      <div className="pricingLeft">
         <span>Best price</span>
         <h1>A fair knowledge base software</h1>
         <p>
@@ -24,7 +24,7 @@ const Pricing = () => {
         </p>
         <Button text="Pricing" style={buttonStyle} />
       </div>
-      <div className="right">
+      <div className="pricingRight">
         <PricingCard
           img={envelope}
           title="Ticket"

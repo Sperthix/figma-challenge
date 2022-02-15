@@ -15,7 +15,7 @@ const Intro = () => {
 
   return (
     <section className="intro">
-      <div className="left">
+      <div className="introLeft">
         <h1>
           Provide excellent
           <br /> <span>customer</span> service.
@@ -49,7 +49,7 @@ const Intro = () => {
           <img src={usc} alt="usc logo" />
         </div>
       </div>
-      <div className="right">
+      <div className="introRight">
         <img src={bg} alt="women typing on a phone"></img>
       </div>
     </section>

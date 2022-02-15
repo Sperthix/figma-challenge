@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,kBAAkB,CAAC;EACjB,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,gBAAgB,EAAE,oCAAoC;EACtD,aAAa,EAAE,IAAI;CACpB",
+    "mappings": "AAEA,AAAA,kBAAkB,CAAC;EACjB,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,gBAAgB,EAAE,oCAAoC;EACtD,gBAAgB,EAAE,wBAAwB;EAC1C,aAAa,EAAE,IAAI;CASpB;;AAdD,AAOE,kBAPgB,CAOhB,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;CACd;;AATH,AAWE,kBAXgB,CAWhB,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;CACd",
     "sources": [
         "Benefits.scss",
         "../../../Variables/Variables.scss"

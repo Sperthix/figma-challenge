@@ -11,14 +11,14 @@
           justify-content: flex-end;
 }
 
-.intro .right img {
+.intro .introRight img {
   z-index: -1;
   min-height: 814px;
   min-width: 771px;
   border-radius: 70px 0 0 70px;
 }
 
-.intro .left {
+.intro .introLeft {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,24 +35,24 @@
           align-items: left;
 }
 
-.intro .left h1 {
+.intro .introLeft h1 {
   margin: 0;
   font-family: "Poppins";
   font-weight: bold;
   font-size: 55px;
 }
 
-.intro .left h1 span {
+.intro .introLeft h1 span {
   color: #fa9531;
 }
 
-.intro .left p {
+.intro .introLeft p {
   font-family: "Poppins";
   font-weight: normal;
   font-size: 26px;
 }
 
-.intro .left p.checkmarks {
+.intro .introLeft p.checkmarks {
   margin-bottom: 30px;
   font-family: "Open Sans";
   font-weight: normal;
@@ -60,7 +60,7 @@
   color: #8c9097;
 }
 
-.intro .left p.play {
+.intro .introLeft p.play {
   margin: 0;
   display: inline;
   font-family: "Poppins";
@@ -70,7 +70,7 @@
   top: 2px;
 }
 
-.intro .left .circle {
+.intro .introLeft .circle {
   margin-left: 10px;
   margin-right: 10px;
   width: 50px;
@@ -83,7 +83,7 @@
   top: 25px;
 }
 
-.intro .left .circle span {
+.intro .introLeft .circle span {
   width: 40px;
   height: 40px;
   font-size: 40px;
@@ -94,7 +94,7 @@
           transform: translate(5px, -5px);
 }
 
-.intro .left .circle span span {
+.intro .introLeft .circle span span {
   width: 30px;
   height: 30px;
   font-size: 30px;
@@ -104,14 +104,14 @@
   display: inline-block;
 }
 
-.intro .left .circle span span img {
+.intro .introLeft .circle span span img {
   font-size: 14px;
   position: relative;
   top: -11px;
   left: 11px;
 }
 
-.intro .left .logo span {
+.intro .introLeft .logo span {
   margin-top: 40px;
   font-family: "Poppins";
   color: #8c9097;
@@ -120,7 +120,7 @@
   display: block;
 }
 
-.intro .left .logo img {
+.intro .introLeft .logo img {
   position: relative;
   left: -20px;
   width: 9vw;

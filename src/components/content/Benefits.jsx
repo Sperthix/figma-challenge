@@ -3,7 +3,7 @@ import "../../styles/content/benefits/Benefits.css";
 const Benefits = () => {
   return (
     <section className="BenefitsContainer">
-      <div className="left">
+      <div className="benefitsLeft">
         <span>Helpdesk benefits</span>
         <h1>How can live chat software help your business?</h1>
         <p>
@@ -11,7 +11,7 @@ const Benefits = () => {
           process and empower your online businesses
         </p>
       </div>
-      <div className="right"></div>
+      <div className="benefitsRight"></div>
     </section>
   );
 };
