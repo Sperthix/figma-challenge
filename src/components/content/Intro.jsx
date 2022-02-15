@@ -17,14 +17,9 @@ const Intro = () => {
     <section className="intro">
       <div className="introLeft">
         <h1>
-          Provide excellent
-          <br /> <span>customer</span> service.
+          Provide excellent <span>customer</span> service.
         </h1>
-        <p>
-          Answer more tickets with all-in-
-          <br />
-          one help desk software.
-        </p>
+        <p>Answer more tickets with all-in-one help desk software.</p>
         <p className="checkmarks">
           ✓ No setup fee ✓ Customer service 24/7 <br />✓ No credit card required
           ✓ Cancel any time

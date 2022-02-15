@@ -1,5 +1,7 @@
 import "../../styles/content/benefits/Benefits.css";
 
+import graph from "../../assets/benefits/Graph.svg";
+
 const Benefits = () => {
   return (
     <section className="BenefitsContainer">
@@ -10,6 +12,9 @@ const Benefits = () => {
           Chat conversations can help your contact center improve your sales
           process and empower your online businesses
         </p>
+        <div className="graphContainer">
+          <img src={graph} alt="graph" />
+        </div>
       </div>
       <div className="benefitsRight"></div>
     </section>

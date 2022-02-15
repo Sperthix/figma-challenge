@@ -4,17 +4,74 @@
   background-image: url(../../../assets/benefits/bg.svg);
   background-color: rgba(254, 239, 224, 0.7);
   border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+}
+
+.BenefitsContainer * {
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .BenefitsContainer .benefitsLeft {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 5em;
+}
+
+.BenefitsContainer .benefitsLeft span {
+  color: #fa9531;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.BenefitsContainer .benefitsLeft h1 {
+  max-width: 90%;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.BenefitsContainer .benefitsLeft p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: normal;
+  max-width: 70%;
+}
+
+.BenefitsContainer .benefitsLeft .graphContainer {
+  background-image: url(../../../assets/benefits/GraphBg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.BenefitsContainer .benefitsLeft .graphContainer img {
+  text-shadow: 2px 2px black;
 }
 
 .BenefitsContainer .benefitsRight {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 5em;
 }
 /*# sourceMappingURL=Benefits.css.map */

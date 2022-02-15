@@ -6,12 +6,57 @@
   background-image: url(../../../assets/benefits/bg.svg);
   background-color: rgba(254, 239, 224, 0.7);
   border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+
+  * {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
   .benefitsLeft {
-    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    justify-content: space-evenly;
+    padding: $padding;
+
+    span {
+      color: $LA-darkOrange;
+      font-family: $bodyFont;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    h1 {
+      max-width: 90%;
+      font-family: $titleFont;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    p {
+      font-family: $bodyFont;
+      font-size: 16px;
+      font-weight: normal;
+      max-width: 70%;
+    }
+
+    .graphContainer {
+      background-image: url(../../../assets/benefits/GraphBg.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      img {
+        text-shadow: 2px 2px black;
+      }
+    }
   }
 
   .benefitsRight {
-    display: flex;
+    padding: $padding;
   }
 }

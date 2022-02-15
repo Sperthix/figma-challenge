@@ -26,6 +26,7 @@
       font-family: $titleFont;
       font-weight: bold;
       font-size: 55px;
+      max-width: 70%;
 
       span {
         color: $LA-darkOrange;
@@ -35,6 +36,7 @@
       font-family: $titleFont;
       font-weight: normal;
       font-size: 26px;
+      max-width: 50%;
     }
     p.checkmarks {
       margin-bottom: 30px;

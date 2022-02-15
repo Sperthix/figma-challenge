@@ -40,6 +40,7 @@
   font-family: "Poppins";
   font-weight: bold;
   font-size: 55px;
+  max-width: 70%;
 }
 
 .intro .introLeft h1 span {
@@ -50,6 +51,7 @@
   font-family: "Poppins";
   font-weight: normal;
   font-size: 26px;
+  max-width: 50%;
 }
 
 .intro .introLeft p.checkmarks {
