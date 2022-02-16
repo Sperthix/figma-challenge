@@ -36,28 +36,35 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 5em;
+  padding: 7em;
+  padding-right: 1em;
 }
 
 .BenefitsContainer .benefitsLeft span {
   color: #fa9531;
   font-family: "Open Sans";
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
 }
 
 .BenefitsContainer .benefitsLeft h1 {
   max-width: 90%;
   font-family: "Poppins";
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
+  line-height: 43px;
+  color: #050505;
 }
 
 .BenefitsContainer .benefitsLeft p {
   font-family: "Open Sans";
   font-size: 16px;
-  font-weight: normal;
-  max-width: 70%;
+  font-weight: 400;
+  line-height: 28px;
+  color: #050505;
+  max-width: 80%;
 }
 
 .BenefitsContainer .benefitsLeft .graphContainer {
@@ -67,7 +74,8 @@
 }
 
 .BenefitsContainer .benefitsRight {
-  padding: 5em;
+  padding: 7em;
+  padding-left: 1em;
 }
 
 .BenefitsContainer .BenefitCardWrapper {

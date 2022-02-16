@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1em;
 
     * {
       margin: 0;
@@ -24,22 +24,28 @@
     span {
       font-family: $bodyFont;
       font-size: 14px;
-      font-weight: bold;
+      font-weight: $boldFont;
       color: $LA-darkOrange;
+      letter-spacing: 1px;
     }
 
-    h1 {
+    h2 {
       font-family: $titleFont;
       font-size: 40px;
-      font-weight: bold;
+      font-weight: $boldFont;
+      line-height: 55px;
+      color: $LA-black;
       max-width: 70%;
     }
 
     p {
       font-family: $bodyFont;
       font-size: 16px;
-      font-weight: normal;
-      max-width: 70%;
+      font-weight: $regularFont;
+      line-height: 26px;
+      color: $LA-black;
+      max-width: 71%;
+      margin-bottom: 0.5em;
     }
   }
 

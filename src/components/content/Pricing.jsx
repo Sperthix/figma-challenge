@@ -14,7 +14,7 @@ const Pricing = () => {
     <section className="pricingContainer">
       <div className="pricingLeft">
         <span>Best price</span>
-        <h1>A fair knowledge base software</h1>
+        <h2>A fair knowledge base software</h2>
         <p>
           Creating your own knowledge center doesn’t have to be an expensive
           feat. LiveAgent offers multiple pricing plans that cater to all

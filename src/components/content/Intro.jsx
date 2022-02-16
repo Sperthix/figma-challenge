@@ -11,15 +11,16 @@ import Button from "../helpers/Button";
 const Intro = () => {
   const buttonStyle = {
     width: "30%",
+    padding: "1em",
   };
 
   return (
     <section className="intro">
       <div className="introLeft">
         <h1>
-          Provide excellent <span>customer</span> service.
+          Capture more leads with <span>live chat</span>
         </h1>
-        <p>Answer more tickets with all-in-one help desk software.</p>
+        <p>Take customer engagement to the next level with LiveAgent</p>
         <p className="checkmarks">
           ✓ No setup fee ✓ Customer service 24/7 <br />✓ No credit card required
           ✓ Cancel any time

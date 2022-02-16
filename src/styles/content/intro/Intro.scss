@@ -9,13 +9,13 @@
   .introRight {
     img {
       z-index: -1;
-      min-height: 814px;
-      min-width: 771px;
+      max-height: 814px;
+      max-width: 771px;
       border-radius: 70px 0 0 70px;
     }
   }
   .introLeft {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,9 +24,10 @@
     h1 {
       margin: 0;
       font-family: $titleFont;
-      font-weight: bold;
+      font-weight: $boldFont;
       font-size: 55px;
-      max-width: 70%;
+      color: $LA-black;
+      max-width: 80%;
 
       span {
         color: $LA-darkOrange;
@@ -34,38 +35,26 @@
     }
     p {
       font-family: $titleFont;
-      font-weight: normal;
+      font-weight: $regularFont;
       font-size: 26px;
-      max-width: 50%;
+      color: $LA-black;
+      max-width: 60%;
     }
     p.checkmarks {
       margin-bottom: 30px;
       font-family: $bodyFont;
       font-weight: normal;
       font-size: 14px;
+      line-height: 32px;
       color: #8c9097;
     }
-    // button {
-    //   background: $LA-gradient;
-    //   padding: 4em;
-    //   border: none;
-    //   border-radius: 6px;
-    //   cursor: pointer;
-    //   font-family: $titleFont;
-    //   color: white;
-    //   display: inline;
-    //   padding: 1em;
-    //   text-shadow: 0 2px 0, 0, 0, 0.2;
-    //   font-size: 14px;
-    //   font-weight: bold;
-    //   text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-    // }
     p.play {
       margin: 0;
       display: inline;
       font-family: $titleFont;
       font-size: 14px;
-      font-weight: bolder;
+      font-weight: $semiboldFont;
+      color: $LA-black;
       position: relative;
       top: 2px;
     }
@@ -109,15 +98,16 @@
         margin-top: 40px;
         font-family: $titleFont;
         color: #8c9097;
-        font-weight: bold;
+        font-weight: $boldFont;
         font-size: 14px;
+        line-height: 32px;
         display: block;
       }
       img {
         position: relative;
         left: -20px;
-        width: 9vw;
-        margin-left: 40px;
+        margin-left: 0.2em;
+        transform: scale(0.8);
       }
     }
   }

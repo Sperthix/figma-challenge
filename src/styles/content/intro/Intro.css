@@ -13,13 +13,13 @@
 
 .intro .introRight img {
   z-index: -1;
-  min-height: 814px;
-  min-width: 771px;
+  max-height: 814px;
+  max-width: 771px;
   border-radius: 70px 0 0 70px;
 }
 
 .intro .introLeft {
-  width: 50%;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,9 +38,10 @@
 .intro .introLeft h1 {
   margin: 0;
   font-family: "Poppins";
-  font-weight: bold;
+  font-weight: 700;
   font-size: 55px;
-  max-width: 70%;
+  color: #050505;
+  max-width: 80%;
 }
 
 .intro .introLeft h1 span {
@@ -49,9 +50,10 @@
 
 .intro .introLeft p {
   font-family: "Poppins";
-  font-weight: normal;
+  font-weight: 400;
   font-size: 26px;
-  max-width: 50%;
+  color: #050505;
+  max-width: 60%;
 }
 
 .intro .introLeft p.checkmarks {
@@ -59,6 +61,7 @@
   font-family: "Open Sans";
   font-weight: normal;
   font-size: 14px;
+  line-height: 32px;
   color: #8c9097;
 }
 
@@ -67,7 +70,8 @@
   display: inline;
   font-family: "Poppins";
   font-size: 14px;
-  font-weight: bolder;
+  font-weight: 600;
+  color: #050505;
   position: relative;
   top: 2px;
 }
@@ -117,15 +121,17 @@
   margin-top: 40px;
   font-family: "Poppins";
   color: #8c9097;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
+  line-height: 32px;
   display: block;
 }
 
 .intro .introLeft .logo img {
   position: relative;
   left: -20px;
-  width: 9vw;
-  margin-left: 40px;
+  margin-left: 0.2em;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 /*# sourceMappingURL=Intro.css.map */

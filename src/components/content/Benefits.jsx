@@ -8,6 +8,7 @@ const Benefits = () => {
   const buttonStyle = {
     display: "flex",
     alignItems: "center",
+    fontSize: "16px",
   };
 
   return (

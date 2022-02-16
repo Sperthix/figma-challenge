@@ -1,7 +1,7 @@
 .card {
   background-color: white;
   border-radius: 16px;
-  padding: 3em;
+  padding: 2em 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,10 +15,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 10vw;
+  width: 50%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 2em;
+  gap: 1em;
   position: relative;
 }
 
@@ -34,20 +34,27 @@
 
 .card h2 {
   font-family: "Poppins";
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
+  color: #050505;
   margin-top: 4em;
 }
 
 .card p {
   font-family: "Open Sans";
-  max-width: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #65676b;
+  max-width: 85%;
 }
 
 .card span {
   font-family: "Poppins";
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .card button {
@@ -55,9 +62,13 @@
   border-radius: 6px;
   background-color: white;
   font-family: "Poppins";
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 14px;
-  padding: 0.5em 3.5em;
+  padding: 0.75em 3.5em;
   cursor: pointer;
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+  width: 85%;
 }
 /*# sourceMappingURL=PricingCard.css.map */

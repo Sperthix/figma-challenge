@@ -21,27 +21,34 @@
     align-items: flex-start;
     gap: 1em;
     justify-content: space-evenly;
-    padding: $padding;
+    padding: 7em;
+    padding-right: 1em;
 
     span {
       color: $LA-darkOrange;
       font-family: $bodyFont;
       font-size: 14px;
-      font-weight: bold;
+      font-weight: $boldFont;
+      line-height: 24px;
+      letter-spacing: 1px;
     }
 
     h1 {
       max-width: 90%;
       font-family: $titleFont;
-      font-weight: bold;
+      font-weight: $boldFont;
       font-size: 30px;
+      line-height: 43px;
+      color: $LA-black;
     }
 
     p {
-      font-family: 'Open Sans';
+      font-family: $bodyFont;
       font-size: 16px;
-      font-weight: normal;
-      max-width: 70%;
+      font-weight: $regularFont;
+      line-height: 28px;
+      color: $LA-black;
+      max-width: 80%;
     }
 
     .graphContainer {
@@ -52,7 +59,8 @@
   }
 
   .benefitsRight {
-    padding: $padding;
+    padding: 7em;
+    padding-left: 1em;
   }
 
   .BenefitCardWrapper {

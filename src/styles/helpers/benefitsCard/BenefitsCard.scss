@@ -18,12 +18,16 @@
 
     span {
       color: $LA-darkOrange;
+      background: $LA-gradient;
+      background-clip: none;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       font-family: $bodyFont;
-      font-weight: bold;
+      font-weight: $boldFont;
       font-size: 50px;
       position: absolute;
       top: 50%;
-      left: 40%;
+      left: 30%;
       transform: translate(-50%, -50%);
       white-space: nowrap;
     }
@@ -35,5 +39,25 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 2em;
+
+    * {
+      margin: 0;
+    }
+
+    h3 {
+      font-family: $titleFont;
+      font-weight: $boldFont;
+      font-size: 16px;
+      color: $LA-black;
+    }
+
+    p {
+      font-family: $bodyFont;
+      font-weight: $regularFont;
+      font-size: 14px;
+      line-height: 24px;
+      color: $LA-black;
+      max-width: 100%;
+    }
   }
 }
