@@ -7,7 +7,7 @@ import Button from "../helpers/Button";
 const Benefits = () => {
   const buttonStyle = {
     display: "flex",
-    "align-items": "center",
+    alignItems: "center",
   };
 
   return (
@@ -47,7 +47,6 @@ const Benefits = () => {
         </div>
 
         <Button text="Make your business goals a reality" style={buttonStyle} />
-        {/* <button>Make your business goals a reality</button> */}
       </div>
     </section>
   );
