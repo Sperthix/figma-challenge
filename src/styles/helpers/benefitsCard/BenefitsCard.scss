@@ -1,10 +1,12 @@
 @import "../../../Variables/Variables.scss";
+
 .BenefitsCard {
   background-color: white;
   border-radius: $radius;
   display: flex;
   flex-direction: row;
   max-height: 160px;
+
   * {
     margin: 0;
   }
@@ -15,6 +17,10 @@
     background-size: contain;
     position: relative;
     left: 5%;
+
+    @include s {
+      left: 7%;
+    }
 
     span {
       color: $LA-darkOrange;
@@ -30,6 +36,10 @@
       left: 30%;
       transform: translate(-50%, -50%);
       white-space: nowrap;
+      
+      @include s {
+        font-size: 40px;
+      }
     }
   }
   .BenefitsCardRight {
@@ -40,6 +50,10 @@
     justify-content: space-between;
     padding: 2em;
 
+    @include s {
+      padding: 1em;
+    }
+
     * {
       margin: 0;
     }
@@ -49,6 +63,11 @@
       font-weight: $boldFont;
       font-size: 16px;
       color: $LA-black;
+
+      @include s {
+        text-align: center;
+        font-size: 14px;
+      }
     }
 
     p {
@@ -58,6 +77,11 @@
       line-height: 24px;
       color: $LA-black;
       max-width: 100%;
+
+      @include s {
+        text-align: center;
+        font-size: 12px;
+      }
     }
   }
 }

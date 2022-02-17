@@ -21,6 +21,10 @@
     position: absolute;
     bottom: 80%;
     left: 15%;
+
+    @include s {
+      left: 30%;
+    }
   }
 
   h2 {
@@ -37,6 +41,10 @@
     font-weight: $regularFont;
     color: #65676b;
     max-width: 85%;
+
+    @include s {
+      text-align: center;
+    }
   }
 
   span {
@@ -46,6 +54,11 @@
     line-height: 24px;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
+
+    @include s {
+      width: 100%;
+      text-align: center;
+    }
   }
 
   button {
@@ -59,5 +72,9 @@
     cursor: pointer;
     align-self: left;
     width: 85%;
+
+    @include s {
+      padding: 0.5em 1em;
+    }
   }
 }

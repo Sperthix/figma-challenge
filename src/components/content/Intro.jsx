@@ -10,8 +10,8 @@ import Button from "../helpers/Button";
 
 const Intro = () => {
   const buttonStyle = {
-    width: "30%",
-    padding: "1em",
+    // width: "30%",
+    padding: "1em 2em",
   };
 
   return (
@@ -27,6 +27,7 @@ const Intro = () => {
         </p>
         <div>
           <Button text="Get Started | 14 days free" style={buttonStyle} />
+
           <span className="circle">
             <span>
               <span>

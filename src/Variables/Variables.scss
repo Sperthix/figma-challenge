@@ -19,3 +19,48 @@ $boldFont: 700;
 // Other
 $radius: 16px;
 $padding: 5em;
+
+// Breakpoints
+$breakpoints: (
+  "xs": 320px,
+  "s": 480px,
+  "m": 720px,
+  "l": 960px,
+  "xl": 1200px,
+);
+
+@mixin xl {
+  @media (max-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}
+
+@mixin l {
+  @media (max-width: map-get($breakpoints, "l")) {
+    @content;
+  }
+}
+
+@mixin m {
+  @media (max-width: map-get($breakpoints, "m")) {
+    @content;
+  }
+}
+
+@mixin s {
+  @media (max-width: map-get($breakpoints, "s")) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (max-width: map-get($breakpoints, "xs")) {
+    @content;
+  }
+}
+
+@mixin breakpoint($bp: 1200) {
+  @media (max-width: $bp) {
+    @content;
+  }
+}

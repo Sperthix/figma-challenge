@@ -32,6 +32,12 @@
   left: 15%;
 }
 
+@media (max-width: 480px) {
+  .card img {
+    left: 30%;
+  }
+}
+
 .card h2 {
   font-family: "Poppins";
   font-weight: 700;
@@ -48,6 +54,12 @@
   max-width: 85%;
 }
 
+@media (max-width: 480px) {
+  .card p {
+    text-align: center;
+  }
+}
+
 .card span {
   font-family: "Poppins";
   font-size: 20px;
@@ -55,6 +67,13 @@
   line-height: 24px;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
+}
+
+@media (max-width: 480px) {
+  .card span {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .card button {
@@ -70,5 +89,11 @@
       -ms-grid-row-align: left;
       align-self: left;
   width: 85%;
+}
+
+@media (max-width: 480px) {
+  .card button {
+    padding: 0.5em 1em;
+  }
 }
 /*# sourceMappingURL=PricingCard.css.map */

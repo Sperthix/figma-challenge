@@ -9,6 +9,10 @@
   display: flex;
   align-items: center;
 
+  @include xl {
+    flex-direction: column;
+  }
+
   .pricingLeft {
     flex: 50%;
     padding: $padding;
@@ -16,6 +20,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1em;
+
+    @include xl {
+      align-items: center;
+    }
 
     * {
       margin: 0;
@@ -36,6 +44,11 @@
       line-height: 55px;
       color: $LA-black;
       max-width: 70%;
+
+      @include s {
+        font-size: 30px;
+        text-align: center;
+      }
     }
 
     p {
@@ -46,6 +59,11 @@
       color: $LA-black;
       max-width: 71%;
       margin-bottom: 0.5em;
+
+      @include s {
+        font-size: 14px;
+        text-align: center;
+      }
     }
   }
 
@@ -56,5 +74,12 @@
     position: relative;
     left: -7%; 
     gap: 2em;
+
+    @include xl {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2em;
+      left: 0;
+    }
   }
 }

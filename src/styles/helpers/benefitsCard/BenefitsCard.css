@@ -26,6 +26,12 @@
   left: 5%;
 }
 
+@media (max-width: 480px) {
+  .BenefitsCard .BenefitsCardLeft {
+    left: 7%;
+  }
+}
+
 .BenefitsCard .BenefitsCardLeft span {
   color: #fa9531;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffbd39), to(#fa9531));
@@ -42,6 +48,12 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .BenefitsCard .BenefitsCardLeft span {
+    font-size: 40px;
+  }
 }
 
 .BenefitsCard .BenefitsCardRight {
@@ -64,6 +76,12 @@
   padding: 2em;
 }
 
+@media (max-width: 480px) {
+  .BenefitsCard .BenefitsCardRight {
+    padding: 1em;
+  }
+}
+
 .BenefitsCard .BenefitsCardRight * {
   margin: 0;
 }
@@ -75,6 +93,13 @@
   color: #050505;
 }
 
+@media (max-width: 480px) {
+  .BenefitsCard .BenefitsCardRight h3 {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
 .BenefitsCard .BenefitsCardRight p {
   font-family: "Open Sans";
   font-weight: 400;
@@ -82,5 +107,12 @@
   line-height: 24px;
   color: #050505;
   max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .BenefitsCard .BenefitsCardRight p {
+    text-align: center;
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=BenefitsCard.css.map */

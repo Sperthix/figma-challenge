@@ -16,6 +16,14 @@
           justify-content: center;
 }
 
+@media (max-width: 1200px) {
+  .pageLayout {
+        grid-template-areas: "intro" "pricing" "benefits";
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
 .pageLayout .IntroSection {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -25,6 +33,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 1200px) {
+  .pageLayout .IntroSection {
+    width: 100vw;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .pageLayout .PricingSection {
@@ -37,6 +58,16 @@
   display: flex;
 }
 
+@media (max-width: 1200px) {
+  .pageLayout .PricingSection {
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+}
+
 .pageLayout .BenefitsSection {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -45,5 +76,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 1200px) {
+  .pageLayout .BenefitsSection {
+    width: 100vw;
+  }
 }
 /*# sourceMappingURL=Layout.css.map */

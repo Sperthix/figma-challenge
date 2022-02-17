@@ -5,13 +5,25 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  // gap: 4em;
+
+  @include xl {
+    flex-direction: column;
+  }
+
   .introRight {
     img {
       z-index: -1;
       max-height: 814px;
       max-width: 771px;
       border-radius: 70px 0 0 70px;
+
+      @include l {
+        transform: scale(0.75);
+      }
+
+      @include m {
+        transform: scale(0.5);
+      }
     }
   }
   .introLeft {
@@ -21,6 +33,11 @@
     justify-content: center;
     align-items: left;
 
+    @include xl {
+      align-items: center;
+      justify-self: flex-end;
+    }
+
     h1 {
       margin: 0;
       font-family: $titleFont;
@@ -28,6 +45,16 @@
       font-size: 55px;
       color: $LA-black;
       max-width: 80%;
+
+      @include xl {
+        font-size: 30px;
+        max-width: 100%;
+        text-align: center;
+      }
+
+      @include s {
+        font-size: 20px;
+      }
 
       span {
         color: $LA-darkOrange;
@@ -39,6 +66,16 @@
       font-size: 26px;
       color: $LA-black;
       max-width: 60%;
+
+      @include xl {
+        font-size: 20px;
+        max-width: 100vw;
+        text-align: center;
+      }
+
+      @include s {
+        font-size: 15px;
+      }
     }
     p.checkmarks {
       margin-bottom: 30px;
@@ -47,7 +84,12 @@
       font-size: 14px;
       line-height: 32px;
       color: #8c9097;
+
+      @include s {
+        font-size: 12px;
+      }
     }
+
     p.play {
       margin: 0;
       display: inline;
@@ -57,6 +99,10 @@
       color: $LA-black;
       position: relative;
       top: 2px;
+
+      @include s {
+        font-size: 10px;
+      }
     }
     .circle {
       margin-left: 10px;
@@ -69,6 +115,7 @@
       display: inline-block;
       position: relative;
       top: 25px;
+
       span {
         width: 40px;
         height: 40px;
@@ -93,6 +140,7 @@
         }
       }
     }
+
     .logo {
       span {
         margin-top: 40px;
@@ -102,12 +150,20 @@
         font-size: 14px;
         line-height: 32px;
         display: block;
+
+        @include s {
+          font-size: 10px;
+        }
       }
       img {
         position: relative;
         left: -20px;
         margin-left: 0.2em;
         transform: scale(0.8);
+
+        @include s {
+          transform: scale(0.6);
+        }
       }
     }
   }
