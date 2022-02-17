@@ -39,32 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Poznámky k projektu
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Robene vo VS Code s live compilerom pre scss (automaticky generovane css fily)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Appka testovana cez chrome a operu, cez devtools kontrolovane viewporty pre fullHD desktop, Ipad Air, a telefony pod so sirkou 360px (pri nich nie som este spokojny uvodnou obrazovkov).
 
-### Code Splitting
+Zvolil som desktop-first postup, nasledne upravovany pre rozne viewporty. Zatial je v stave, kde na obrazovkach telefonov je stale mozne horizontalne scrollovanie. Ale zakladna responzivita bola pridana, mozem ju este upravit. Na figme vo vzore som nenasiel specifikacie pre responzivitu. Definoval som viacero breakpointov (320px, 480px, 720px, 960px, 1200px) hoci vsetky nebolo nutne pouzit. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Vo vzore som taktiez natrafil na par nepresnosti, kde nesedeli niektore sirky, nekonzistentnost v uhloch ohraniceni atd, tie ktore sa zdali ako nezamerne som neaplikoval do projektu.
 
-### Analyzing the Bundle Size
+Podla vzoru na figme boli vektorovo vytvorene ikonky, loga, grafy.. v projekte boli pouzite uz tieto vytvorene subory ako .svg
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Chat bol vytvoreny ako zvlast reusable component pre pripadne buduce upravy.
