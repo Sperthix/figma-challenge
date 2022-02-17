@@ -1,0 +1,98 @@
+@import "../../../Variables/Variables.scss";
+
+.chatWindowAgent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1em;
+  max-width: 80%;
+
+  img {
+    position: relative;
+    left: -10px;
+  }
+
+  .agentMessage {
+    display: inline;
+    background-color: $PricingBackground;
+    padding: 0.5em 1em;
+    border-radius: 24px 24px 24px 6px;
+    max-width: 70%;
+
+    span {
+      font-family: $chatFont;
+      font-weight: $regularFont;
+      font-size: 20px;
+      line-height: 28px;
+      color: #65676b;
+    }
+  }
+}
+
+.chatWindowCustomer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1em;
+
+  .customerMessage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $LA-darkOrange;
+    padding: 0.5em 1em;
+    border-radius: 24px 24px 6px 24px;
+    max-width: 60%;
+    position: relative;
+
+    span {
+      font-family: $chatFont;
+      font-weight: $regularFont;
+      font-size: 20px;
+      line-height: 28px;
+      color: white;
+      margin-right: 2em;
+    }
+
+    img {
+      z-index: 3;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+    }
+  }
+}
+
+.chatTyping {
+  .circle1 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #edeff3;
+    position: relative;
+    top: -27px;
+    left: 50px;
+  }
+
+  .circle2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d8dadf;
+    position: relative;
+    top: -39px;
+    left: 65px;
+  }
+
+  .circle3 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ced0d4;
+    position: relative;
+    top: -51px;
+    left: 80px;
+  }
+}

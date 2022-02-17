@@ -11,6 +11,25 @@
   }
 
   .introRight {
+    position: relative;
+    overflow-x: visible;
+    .chat {
+      overflow-x: visible;
+      z-index: 2;
+      max-width: 60%;
+      position: absolute;
+      top: 26%;
+      left: -19%;
+
+      @include xl {
+        left: 10%;
+      }
+
+      @include s {
+        top: 80%;
+        left: 30%;
+      }
+    }
     img {
       z-index: -1;
       max-height: 814px;

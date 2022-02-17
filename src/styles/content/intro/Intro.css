@@ -20,6 +20,33 @@
   }
 }
 
+.intro .introRight {
+  position: relative;
+  overflow-x: visible;
+}
+
+.intro .introRight .chat {
+  overflow-x: visible;
+  z-index: 2;
+  max-width: 60%;
+  position: absolute;
+  top: 26%;
+  left: -19%;
+}
+
+@media (max-width: 1200px) {
+  .intro .introRight .chat {
+    left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro .introRight .chat {
+    top: 80%;
+    left: 30%;
+  }
+}
+
 .intro .introRight img {
   z-index: -1;
   max-height: 814px;

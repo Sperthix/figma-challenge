@@ -7,6 +7,8 @@ import forbes from "../../assets/intro/logos/Forbes.svg";
 import nascar from "../../assets/intro/logos/Nascar.svg";
 import usc from "../../assets/intro/logos/USC.svg";
 import Button from "../helpers/Button";
+import Chat from "../helpers/Chat";
+import pic from "../../assets/chat/Pic.svg";
 
 const Intro = () => {
   const buttonStyle = {
@@ -47,6 +49,13 @@ const Intro = () => {
         </div>
       </div>
       <div className="introRight">
+        <section className="chat">
+          <Chat left={true} pic={pic} message="Hello, I'm John, how may I help you?" />
+          <Chat left={false} message="I'd like to check my order status." />
+          <Chat left={true} pic={pic} message="No problem, please provide me with your order ID." />
+          <Chat left={false} message="My order ID is GQ34566" />
+          <Chat left={true} bubles={true} pic={pic} />
+        </section>
         <img src={bg} alt="women typing on a phone"></img>
       </div>
     </section>
